@@ -5,64 +5,57 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600" rel="stylesheet">
     <style>
       body{
-        padding: 1em;
+        padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         font-size: 1.2em;
-        background: linear-gradient(
-          90deg,
-          #666,
-          #aaa 20%,
-          #fff 40%,
-          #fff 60%,
-          #aaa 80%,
-          #666
-        );
+        background: #fff;
       }
       strong{ font-weight: 600 }
-      #main{
+      #page{
         display: block;
         margin: 1em auto;
-        padding: 0 2em 4em;
-        width: 90%;
+        padding: 0;
         height: 100%;
         min-height: 600px;
-        max-width: 600px;
         margin: 0 auto;
-        background: #fff;
-        box-shadow: 0 0 5em rgba(23,31,63,0.6);
-        border-radius: 0.375em;
+        background: #f4f4f4;
         border-top: 1.5em solid #09f;
         border-bottom: 2em solid #0df;
+      }
+      #main {
+        max-width: 600px;
+        margin: 0 auto;
       }
       h1{
         text-align: center;
         font-size: 1em;
-        margin: 0 -2em 1em;
+        margin: 0 0 1em;
         padding: 1em 0;
         border-top: 0.5em solid #0df;
-        border-bottom: 0.5em solid #eee;
+        border-bottom: 0.5em solid #e6e6e6;
+        background: #fff;
       }
       #logo{ width: 100%; max-width: 300px }
     </style>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   </head>
   <body>
-    <section id="main">
-      <h1>
-        <img src="logo.png" id="logo" alt="Blue Peak Sotware">
-      </h1>
-      <p>
-        <strong>Blue Peak Software LLC</strong>
-        is a custom software development and consulting firm, with a particular
-        (though not exclusive) emphasis on the clinical laboratory industry.
-      </p>
-      <p>
-        For more information, contact:
-        <br>
-        <code>inquiries [at] bluepeaksoftware [dot] com</code>
-      </p>
-    </section>
+    <article id="page">
+      <h1><img src="logo.png" id="logo" alt="Blue Peak Sotware"></h1>
+      <section id="main">
+        <p>
+          <strong>Blue Peak Software LLC</strong>
+          is a custom software development and consulting firm, with a particular
+          (though not exclusive) emphasis on the clinical laboratory industry.
+        </p>
+        <p>
+          For more information, contact:
+          <br>
+          <code>inquiries [at] bluepeaksoftware [dot] com</code>
+        </p>
+      </section>
+    </article>
   </body>
 </html>
